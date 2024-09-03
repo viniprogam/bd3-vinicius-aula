@@ -9,7 +9,7 @@ use(database);
 
 /* altera os dados de um documento da collection */
 
-db[collection].updateOne(
-    {titulo: 'O Senho dos anéis: As Duas Torres'},
-    { $set:{valor: '98'} }
+db[collection].updateMany(
+    {autor: "J.R.R Tolkien"},
+    { $set:{autor: 'Jonh Ronald Reuel Tolkien'} }
 );

@@ -8,4 +8,4 @@ const collection = 'LIVRARIA';
 use(database);
 
 /* Seleciona todos os registros da coleção */
-db[collection].find({"categoria": "Ficção Científica"});
+db[collection].find({"codigo": "8"});
